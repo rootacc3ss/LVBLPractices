@@ -1,5 +1,11 @@
 # LVBLPractices
-Attempts at reverse engineering LVBL with unique prompting methodologies to see how they have improved Claude's design output, creates integrations and optimizes the wrapper for better code generation.
+attempts at reverse engineering LVBL with unique prompting methodologies (and eventually, real code) to see how they have improved Claude's design output, creates integrations and optimizes the wrapper for better code generation.
+
+i'll eventually organize this repo, but first, you should read (this, and then) dev-notes.md. those are some notes on how i figured out that this was most likely a wrapper, not a fine tuned, specialized or truly trained Claude (or its own LLM).
+
+then, read design-rules.md, additional-design.md following that and then final-design-output.md.
+
+i am determined to fully reverse engineer and get down to the bottom of this service. after further cracking design and replicating it in bolt.diy, i have a few more fixes and integrations in store for that open source project. but by the end of it, i hope to create the best no-code ai software generator on earth.
 
 # To Do
 - finish cracking the design wrapper and replicate it in cursor, windsurf or my own environment with
